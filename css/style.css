@@ -1,0 +1,134 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*HEADER*/
+#header{
+	height: 150px;
+	width: 100%;
+	background-color: #006cd0;
+	box-shadow: 0px 1px 3px grey;
+	color: white;
+	display: block;
+	float: left;
+}
+
+/*LEFT HEADER*/
+#header img{
+	height: 150px;
+	margin-left: 40px;
+	display: block;
+	float: left;
+}
+
+/*MID HEADER*/
+#header #header-mid{
+	height: 150px;
+	margin-top: 20px;
+	display: block;
+	float: left;
+}
+
+#header #header-mid #title{
+	height: 70px;
+	margin-left: 200px;
+	font-size: 48px;
+}
+
+#header #header-mid #subtitle{
+	height: 60px;
+	margin-left: 400px;
+	font-size: 36px;
+}
+
+/*RIGHT HEADER*/
+#header #navigation{
+	height: 150px;
+	display: block;
+	float: right;
+}
+
+#header #navigation a{
+	padding: 55px;
+	font-size: 40px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#header #navigation:hover{
+	background-color: white;
+}
+
+#header #navigation:hover > a{
+	color: #006cd0;
+}
+
+#header #navigation:hover> ul{
+	display: block;
+	color: #006cd0;
+}
+
+#header #navigation ul{
+	display: none;
+	padding: 0px;
+	background-color: white;
+	box-shadow: 0px 1px 3px grey;
+	position: absolute;
+
+	list-style: none;
+}
+
+#header #navigation ul li a{
+	padding: 20px 55px;
+	color: #006cd0;
+}
+
+#header #navigation ul li:hover{
+	background-color: #006cd0;
+	color: white;
+}
+
+#header #navigation ul li:hover > a{
+	color: white;
+}
+
+
+
+
+
+/*CONTENT*/
+#content{
+	margin: 40px;
+	display: block;
+	float: left;
+}
+
+
+
+
+
+/*FOOTER*/
+#footer{
+	height: 120px;
+	width: 100%;
+	background-color: #006cd0;
+	display: block;
+	float: left;
+}
+
+/*LEFT FOOTER*/
+#footer #footer-left{
+	display: block;
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+
+/*RIGHT FOOTER*/
+#footer #footer-right img{
+	display: block;
+	float: right;
+	height: 120px;
+}
