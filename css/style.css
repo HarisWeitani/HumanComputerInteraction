@@ -95,9 +95,6 @@
 }
 
 
-
-
-
 /*CONTENT*/
 #content{
 	margin: 40px;
@@ -106,12 +103,9 @@
 }
 
 
-
-
-
 /*FOOTER*/
 #footer{
-	height: 120px;
+	height: 80px;
 	width: 100%;
 	background-color: #006cd0;
 	display: block;
@@ -124,11 +118,14 @@
 	float: left;
 	color: white;
 	font-size: 24px;
+	padding-top: 25px;
+	padding-left: 10px;
 }
 
 /*RIGHT FOOTER*/
 #footer #footer-right img{
 	display: block;
 	float: right;
-	height: 120px;
+	padding: 20px;
+	height: 40px;
 }
