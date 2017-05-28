@@ -41,14 +41,15 @@
 	
 	<div id="content">
 		<!-- Content here -->
-		<div class="donation-box">
-			<div class="donation-info">
-				
+		<div class="donatin-container">
+			<div class="donation-box">
+				<div class="donation-info">Donation Information</div>
+					
 				<div class="input-fields">
 					<input type="text" name="" id="fullName" placeholder="Full Name"> </input>
 					<input type="text" name="" id="email" placeholder="Email"> </input>
 					<input type="text" name="" id="address" placeholder="Address"> </input>
-					<input list="country" name="" id="countryList">
+ 					<input list="country" name="" id="countryList">
 						<datalist id="country">
 							<option value="Indonesia"></option>
 							<option value="United States America"></option>
@@ -71,25 +72,27 @@
 					<div class="button">Rp <input type="text" class="customAmount" name="" placeholder=""></input></div>
 				</div>
 
-				<div class="button-gender">
-					<input type="radio" name="" class="gender" name="x" value="male" id="Male" checked="">
-					<input type="radio" name="" class="gender" name="x" value="female" id="Female">
-					<label for="male" class="highlightOff">Male</label>
-					<label for="female" class="highlightOn">Female</label>
+				<div class="gender">
+					<input type="radio" name="" class="genderInput" name="x" value="male" id="Male" checked="">
+					<label for="male" class="switch switch-off">Male</label>
+					<input type="radio" name="" class="genderInput" name="x" value="female" id="Female">
+					<label for="female" class="switch switch-on">Female</label>
 					<span class="select"></span>
 				</div>
 
 				<div class="check-box">
-					<input type="checkbox" name="" id="agreement" class="chk-box">
-					<input type="checkbox" name="" id="receipt" class="chk-box">
+					<input type="checkbox" name="" id="agreement" class="chk-box"></input>
 					<label for="agreement">I agree the Terms & Conditions</label>
+					<br/>
+					<input type="checkbox" name="" id="receipt" class="chk-box"></input>
 					<label for="receipt">Email me a Receipt</label>
 				</div>
 
-				<div class="donate-button">
+				<div class="err">
 					
 				</div>
 
+				<div class="donate-button">DONATE NOW</div>
 			</div>
 		</div>
 	</div>
