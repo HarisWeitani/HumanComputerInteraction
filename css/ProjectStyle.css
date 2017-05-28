@@ -140,6 +140,9 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Montserrat',sans-serif;
 }
 
 .ProjectPicture1, .ProjectPicture2, .ProjectPicture3, .ProjectPicture4{
@@ -168,6 +171,8 @@
 	left: 2%;
 	transform: rotate(230deg);
 }
+
+
 
 
 

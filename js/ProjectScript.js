@@ -1,10 +1,12 @@
+$('document').ready(function(){
+
 var width = $('.ProjectPicture1').width();
 
 $('#prev').click(function(){
 	$('#Slide1').animate({
-		left : + width	
+		left : + width
 	},1000,function(){
-		$('.ProjectPicture1 : last-child').prependTo('#Slide1');
+		$('.ProjectPicture1:last-child').prependTo('#Slide1');
 		$('#Slide1').css('left','');
 	});
 });
@@ -13,7 +15,7 @@ $('#next').click(function(){
 	$('#Slide1').animate({
 		left : - width
 	},1000,function(){
-		$('.ProjectPicture1:last-child').appendTo("#Slide1");
+		$('.ProjectPicture1:first-child').appendTo("#Slide1");
 		$('#Slide1').css('left','');
 	});		
 });
@@ -35,7 +37,7 @@ $('#next2').click(function(){
 	$('#Slide2').animate({
 		left : - width2
 	},1000,function(){
-		$('.ProjectPicture2:last-child').appendTo("#Slide2");
+		$('.ProjectPicture2:first-child').appendTo("#Slide2");
 		$('#Slide2').css('left','');
 	});		
 });
@@ -56,7 +58,7 @@ $('#next3').click(function(){
 	$('#Slide3').animate({
 		left : - width3
 	},1000,function(){
-		$('.ProjectPicture3:last-child').appendTo("#Slide3");
+		$('.ProjectPicture3:first-child').appendTo("#Slide3");
 		$('#Slide3').css('left','');
 	});		
 });
@@ -77,10 +79,10 @@ $('#next4').click(function(){
 	$('#Slide4').animate({
 		left : - width4
 	},1000,function(){
-		$('.ProjectPicture4:last-child').appendTo("#Slide4");
+		$('.ProjectPicture4:first-child').appendTo("#Slide4");
 		$('#Slide4').css('left','');
 	});		
 });
 
-
+});
 
