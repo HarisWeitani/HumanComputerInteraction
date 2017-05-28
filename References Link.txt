@@ -12,3 +12,6 @@ https://www.google.co.id/search?q=facebook+logo&safe=off&source=lnms&tbm=isch&sa
 https://www.google.co.id/search?q=facebook+logo&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi90_m1pIDUAhWFpZQKHZYLDZYQ_AUICigB&biw=1360&bih=638#safe=off&tbm=isch&q=instagram+logo+png+transparent+background&imgrc=pfJG4ZtV7hOXVM:
 https://www.google.co.id/search?q=facebook+logo&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi90_m1pIDUAhWFpZQKHZYLDZYQ_AUICigB&biw=1360&bih=638#safe=off&tbm=isch&q=youtube+logo+png+transparent+background&imgrc=Qc3LsyzOKZ2OLM:
 
+Fonts
+https://fonts.googleapis.com/css?family=Montserrat:400,700
+https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic
