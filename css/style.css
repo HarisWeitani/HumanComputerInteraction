@@ -12,6 +12,7 @@
 	color: white;
 	display: block;
 	float: left;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 
 /*LEFT HEADER*/
@@ -99,9 +100,56 @@
 /*CONTENT*/
 #content{
 	margin: 40px;
-	font-size: 18px;
+	font-size: 30px;
 	display: block;
 	float: left;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+
+
+/* IMG SLIDER */
+#Slide1, #Slide2{
+	margin-left: -400px;
+	position: relative;
+	width: 1600px;
+	height: 250px;
+}
+
+.Project1, .Project2{
+	width: 400px;
+	height: 400px;
+	margin: 100px 150px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.ProjectPicture1, .ProjectPicture2{
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+
+#prev, #next, #prev2, #next2{
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	border: 5px solid black;
+	border-left: none;
+	border-bottom: none;
+	position: absolute;
+	cursor: pointer;
+}
+
+#next, #next2{
+	right: 2%;
+	transform: rotate(45deg);
+}
+
+#prev, #prev2{
+	left: 2%;
+	transform: rotate(230deg);
 }
 
 
@@ -113,6 +161,7 @@
 	box-shadow: 0px -1px 3px grey;
 	display: block;
 	float: left;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 
 /*LEFT FOOTER*/
@@ -143,6 +192,14 @@
 	#header #header-right #header-right-left{
 		height: 160px;
 	}
+
+	.Project1, .Project2{
+		margin: 20px 0px;
+	}
+
+	#content p{
+		margin-top: 900px;
+	}
 }
 
 @media screen and (max-width: 500px)
@@ -162,5 +219,13 @@
 
 	#footer #footer-left{
 		width: 100%;
+	}
+
+	.Project1, .Project2{
+		margin: 20px 0px;
+	}
+
+	#content p{
+		margin-top: 900px;
 	}
 }
