@@ -12,6 +12,7 @@
 	color: white;
 	display: block;
 	float: left;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 
 /*LEFT HEADER*/
@@ -81,6 +82,7 @@
 	display: none;
 	background-color: #006cd0;
 	box-shadow: 0px 1px 3px grey;
+	z-index: 2;
 	list-style: none;
 	position: absolute;
 }
@@ -105,6 +107,7 @@
 	background-color: #006cd0;
 	display: block;
 	float: left;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 
 /*LEFT FOOTER*/
@@ -148,6 +151,7 @@
 .ProjectPicture1, .ProjectPicture2, .ProjectPicture3, .ProjectPicture4{
 	width: 400px;
 	height: 400px;
+	z-index: 1;
 	float: left;
 }
 

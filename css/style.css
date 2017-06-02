@@ -100,7 +100,7 @@
 
 /*CONTENT*/
 #content{
-	margin: 40px;
+	margin: 30px;
 	font-size: 30px;
 	display: block;
 	float: left;
@@ -200,7 +200,7 @@
 	}
 
 	#content p{
-		margin-top: 900px;
+		margin-top: 0px;
 	}
 }
 
@@ -228,6 +228,6 @@
 	}
 
 	#content p{
-		margin-top: 900px;
+		margin-top: 0px;
 	}
 }
