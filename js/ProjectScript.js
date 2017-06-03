@@ -1,5 +1,21 @@
 $('document').ready(function(){
 
+$('#toggle1').click(function(){
+	$('.content_toggle1').toggle(500);
+});
+
+$('#toggle2').click(function(){
+	$('.content_toggle2').toggle(500);
+});
+
+$('#toggle3').click(function(){
+	$('.content_toggle3').toggle(500);
+});
+
+$('#toggle4').click(function(){
+	$('.content_toggle4').toggle(500);
+});
+
 var width = $('.ProjectPicture1').width();
 
 $('#prev').click(function(){
